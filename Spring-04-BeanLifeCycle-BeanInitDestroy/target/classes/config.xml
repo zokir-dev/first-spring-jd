@@ -4,10 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="seleniumHrs" class="com.Selenium" scope="prototype">
+    <bean id="seleniumHrs" class="com.cyber.services.Selenium" scope="prototype">
     </bean>
 
-    <bean id="javaHrs" class="com.Java" scope="prototype"></bean>
+    <bean id="javaHrs" class="com.cyber.services.Java" init-method="myInitMethod" destroy-method="myDestroyMethod">
+
+    </bean>
 
 
 
