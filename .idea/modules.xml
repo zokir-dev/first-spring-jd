@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-00-LooselyCouples/Spring-00-LooselyCouples.iml" filepath="$PROJECT_DIR$/Spring-00-LooselyCouples/Spring-00-LooselyCouples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringConrainer/Spring-01-SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringConrainer/Spring-01-SpringContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" filepath="$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-02-DI-Setterinjection/Spring-02-DI-Setterinjection.iml" filepath="$PROJECT_DIR$/Spring-02-DI-Setterinjection/Spring-02-DI-Setterinjection.iml" />
     </modules>
   </component>
 </project>

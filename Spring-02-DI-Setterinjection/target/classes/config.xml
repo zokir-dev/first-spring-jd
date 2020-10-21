@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="seleniumHrs" class="com.cyber.services.Selenium">
+        <property name="officeHours" ref="officeHrs"/>
+    </bean>
+
+    <bean id="javaHrs" class="com.cyber.services.Java">
+        <property name = "officeHours" ref="officeHrs"/>
+    </bean>
+
+    <bean id="officeHrs" class="com.cyber.services.OfficeHours"></bean>
+
+
+</beans>
