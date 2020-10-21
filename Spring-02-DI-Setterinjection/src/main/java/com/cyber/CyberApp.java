@@ -12,9 +12,9 @@ public class CyberApp {
 
         Course course = container.getBean("javaHrs", Course.class);
         course.getTeachingHours();
-//
-//        course = (Course)container.getBean("seleniumHrs");
-//        course.getTeachingHours();
+
+        course = (Course)container.getBean("seleniumHrs");
+        course.getTeachingHours();
 
     }
 }

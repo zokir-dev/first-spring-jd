@@ -4,15 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="seleniumHrs" class="com.Selenium">
-        <property name="officeHours" ref="officeHrs"/>
+    <bean id="seleniumHrs" class="com.cyber.services.Selenium" scope="prototype">
     </bean>
 
-    <bean id="javaHrs" class="com.Java">
-        <property name = "officeHours" ref="officeHrs"/>
-    </bean>
+    <bean id="javaHrs" class="com.cyber.services.Java" scope="prototype"></bean>
 
-    <bean id="officeHrs" class="com.OfficeHours"></bean>
+
 
 
 </beans>
