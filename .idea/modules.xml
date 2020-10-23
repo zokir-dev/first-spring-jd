@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GlobalGitIgnoreconfigCheck/GlobalGitIgnoreconfigCheck.iml" filepath="$PROJECT_DIR$/GlobalGitIgnoreconfigCheck/GlobalGitIgnoreconfigCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-00-LooselyCouples/Spring-00-LooselyCouples.iml" filepath="$PROJECT_DIR$/Spring-00-LooselyCouples/Spring-00-LooselyCouples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringConrainer/Spring-01-SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringConrainer/Spring-01-SpringContainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" filepath="$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" />
