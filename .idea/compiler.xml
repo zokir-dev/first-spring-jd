@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-06-JavaCode-Configuration" />
+        <module name="Spring-05-Value" />
         <module name="Spring-02-DI-Setterinjection" />
         <module name="Spring-04-BeanLifeCycle-BeanInitDestroy" />
         <module name="Spring-05-JavaAnnotaion-Autowired" />
@@ -26,6 +28,8 @@
       <module name="Spring-05-JavaAnnotaion-Autowired" target="1.8" />
       <module name="Spring-05-JavaAnnotaions-Qualifier" target="1.8" />
       <module name="Spring-05-JavaAnnotations-Component" target="1.8" />
+      <module name="Spring-05-Value" target="1.8" />
+      <module name="Spring-06-JavaCode-Configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-JavaAnnotaion-Autowired/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-JavaAnnotaions-Qualifier/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-Value/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/pom.xml" />
       </list>
     </option>
   </component>

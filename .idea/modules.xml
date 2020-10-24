@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotaion-Autowired/Spring-05-JavaAnnotaion-Autowired.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotaion-Autowired/Spring-05-JavaAnnotaion-Autowired.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotaions-Qualifier/Spring-05-JavaAnnotaions-Qualifier.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotaions-Qualifier/Spring-05-JavaAnnotaions-Qualifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/Spring-05-JavaAnnotations-Component.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/Spring-05-JavaAnnotations-Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-Value/Spring-05-Value.iml" filepath="$PROJECT_DIR$/Spring-05-Value/Spring-05-Value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-06-JavaCode-Configuration/Spring-06-JavaCode-Configuration.iml" filepath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/Spring-06-JavaCode-Configuration.iml" />
     </modules>
   </component>
 </project>
