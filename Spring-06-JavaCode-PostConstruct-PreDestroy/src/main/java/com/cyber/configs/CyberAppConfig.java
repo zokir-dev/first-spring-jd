@@ -1,13 +1,11 @@
 package com.cyber.configs;
 
-import com.cyber.interfaces.ExtraSessions;
 import com.cyber.services.Java;
 import com.cyber.services.OfficeHours;
 import com.cyber.services.Selenium;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Jsr330ScopeMetadataResolver;
 
 @Configuration
 @ComponentScan("com.cyber")

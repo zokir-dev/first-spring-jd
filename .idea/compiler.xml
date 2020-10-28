@@ -15,6 +15,7 @@
         <module name="Spring-04-BeanLifeCycle-BeanInitDestroy" />
         <module name="Spring-05-JavaAnnotaion-Autowired" />
         <module name="Spring-02-DI-ConstructorInjection" />
+        <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
         <module name="Spring-03-BeanScope-Singleton" />
         <module name="Spring-05-JavaAnnotaions-Qualifier" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="Spring-05-JavaAnnotations-Component" target="1.8" />
       <module name="Spring-05-Value" target="1.8" />
       <module name="Spring-06-JavaCode-Configuration" target="1.8" />
+      <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
