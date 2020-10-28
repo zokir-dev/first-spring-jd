@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-01-SpringContainer" />
-        <module name="cyber" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-05-Value" />
