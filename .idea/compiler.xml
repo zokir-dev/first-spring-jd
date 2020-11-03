@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-01-SpringContainer" />
+        <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-05-Value" />
@@ -33,10 +34,12 @@
       <module name="Spring-05-Value" target="1.8" />
       <module name="Spring-06-JavaCode-Configuration" target="1.8" />
       <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" target="1.8" />
+      <module name="Spring-07-SpringBoot-Ioc-DI-Lab" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-07-SpringBoot-Ioc-DI-Lab" options="-parameters" />
       <module name="cyber" options="-parameters" />
     </option>
   </component>
