@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I-90 Application Form</title>
+</head>
+<body>
+    <form>
+        <p>I-90 Application form</p>
+        <br>
+
+        <div>
+        <div class="row">
+            <label>First Name: <input type="text" name="firstname" size="15" maxlength="20"/></label>
+            <label> Last Name: <input type="text" name="lastname" size="15" maxlength="20"></label>
+        </div>
+        </div>
+        <br>
+        <wbr>
+        <label>Select your gender:</label>
+        <input type="radio" name="sex" value="Male" />Male
+        <input type="radio" name="sex" value="Female"/>Female
+        <p>Please enter your address: <br>
+            <label>Street address: <input type="text" name="address">
+                    Apt/Suite: <input type="text" name="address">
+            </label>
+            <label>City: <input type="text" name="city"></label>
+            <label>State:
+                <select name="states">
+                    <option name="state" value="PA">PA</option>
+                    <option name="state" value="CA" selected="selected">CA</option>
+                    <option name="state" value="NY">NY</option>
+                    <option name="state" value="NC">NC</option>
+                    <option name="state" value="DC">DC</option>
+                </select>
+            </label>
+        </p>Please read <a href="TermOfCondition.html" target="_blank">terms of conditions</a>
+        <br>
+        <input type="submit" name="submit" value="submit"/>
+        </p>
+
+    </form>
+</body>
+</html>
