@@ -3,42 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <title>I-90 Application Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+    <style type="text/css">
+        body{
+            font-family: Arial,serif;
+            background-color: antiquewhite;
+            margin-left: 50px;
+        }
+    </style>
 </head>
 <body>
     <form>
-        <p>I-90 Application form</p>
+        <p><b><i><u>I-90 Application form</u></i></b></p>
+        <img src="uscis-form-i-90.png" alt="I-90 image">
         <br>
 
         <div>
         <div class="row">
             <label>First Name: <input type="text" name="firstname" size="15" maxlength="20"/></label>
-            <label> Last Name: <input type="text" name="lastname" size="15" maxlength="20"></label>
+            <label>Last Name: <input type="text" name="lastname" size="15" maxlength="20"></label>
         </div>
         </div>
         <br>
         <wbr>
-        <label>Select your gender:</label>
+        <label>Select your gender:
         <input type="radio" name="sex" value="Male" />Male
         <input type="radio" name="sex" value="Female"/>Female
-        <p>Please enter your address: <br>
-            <label>Street address: <input type="text" name="address">
-                    Apt/Suite: <input type="text" name="address">
-            </label>
-            <label>City: <input type="text" name="city"></label>
-            <label>State:
-                <select name="states">
-                    <option name="state" value="PA">PA</option>
-                    <option name="state" value="CA" selected="selected">CA</option>
-                    <option name="state" value="NY">NY</option>
-                    <option name="state" value="NC">NC</option>
-                    <option name="state" value="DC">DC</option>
-                </select>
-            </label>
-        </p>Please read <a href="TermOfCondition.html" target="_blank">terms of conditions</a>
+        </label>
         <br>
-        <input type="submit" name="submit" value="submit"/>
+        <hr>
+
+<!--        <div class="row">-->
+<!--            <div class="col" style="border:1px solid #333">-->
+            <fieldset>
+                <legend>Please enter your address: </legend><br>
+                <label>Street address: <input type="text" name="address">
+                        Apt/Suite: <input type="text" name="address">
+                </label>
+                <label>City: <input type="text" name="city"></label>
+                <label>State:
+                    <select name="states">
+                        <option name="state" value="PA">PA</option>
+                        <option name="state" value="CA" selected="selected">CA</option>
+                        <option name="state" value="NY">NY</option>
+                        <option name="state" value="NC">NC</option>
+                        <option name="state" value="DC">DC</option>
+                    </select>
+                </label>
+            </fieldset>
+<!--            </div>-->
+<!--        </div>-->
+        <br>
+        <fieldset>
+            <legend>Contact info:</legend>
+            <label>Email: <input type="text" name="email"></label>
+            <label>Phone number: <input type="text" name="phonenum"></label>
+        </fieldset>
+            <p>Please read <a href="TermOfCondition.html" target="_blank">terms of conditions</a>
+        <br>
+        <input type="submit" name="submit" value="Submit"/>
         </p>
 
     </form>
+
+    <form class="form-inline">
+        <input class="form-control mr-2" type="text" id="username" placeholder="Enter username">
+        <input class="form-control mr-2" type="text" id="password" placeholder="Password">
+        <div class="form-check">
+            <label class="form-check-label mr-2">
+                <input type="checkbox" class="form-check-input"> Remember me
+            </label>
+        </div>
+
+        <button class="btn btn-light" type="submit">Submit</button>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- FORM ROW -->
+    <form>
+        <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- VALIDATION -->
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input class="form-control is-valid" type="text" id="username">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control is-invalid" type="text" id="password">
+        <div class="invalid-feedback">
+            Password not strong enough
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password2">Confirm Password</label>
+        <input class="form-control is-invalid" type="text" id="password2">
+        <div class="invalid-feedback">
+            Password does not match
+        </div>
+    </div>
+
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
 </body>
 </html>
