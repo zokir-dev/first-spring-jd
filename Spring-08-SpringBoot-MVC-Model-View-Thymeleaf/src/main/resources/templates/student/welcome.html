@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+</head>
+<body>
+    <h1>This is welcome page</h1>
+
+    <!-- Thymeleaf text -->
+    <h2 th:text="${name}"></h2>
+
+    <h2 th:text="${course}"></h2>
+    <h2 th:text="${studentID}"></h2>
+
+    <h2 th:text="${numbers}"></h2>
+-    <h2 th:text="${numbers.get(0)}"></h2>
+<!--    <h2 th:text="${birthday}"></h2>-->
+<!--    <h2 th:text="${ 'Hello ' + name}"></h2>-->
+
+    <!-- Object -->
+    <h2 th:text="${'Stidents first name is '+student.getFirstName()}"></h2>
+
+    <!-- Links -->
+
+    <a th:href="@{https://cybertekschool.com}">Cyber Page</a><br>
+    <a th:href="@{/student/login}">Login Page</a><br>
+
+
+    <!-- Adding parameters to link -->
+
+    <a th:href="@{/student/welcome(id=3)}">Link 2</a><br>
+    <a th:href="@{/student/welcome(id=${student.id})}">Link3</a>
+
+</body>
+</html>
