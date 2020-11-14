@@ -32,5 +32,18 @@
     <a th:href="@{/student/welcome(id=3)}">Link 2</a><br>
     <a th:href="@{/student/welcome(id=${student.id})}">Link3</a>
 
+    <!-- Iteration -->
+
+    <ul>
+        <li th:each="number : ${numbers}" th:text="${number}"></li>
+
+    </ul>
+
+    <!-- Fragment -->
+
+    <div th:replace="fragments/footer :: footer"></div>
+
+
+
 </body>
 </html>

@@ -20,7 +20,7 @@ public class StudentController {
     public String homePage(Model model){
 
         model.addAttribute("name","John Smith");
-        model.addAttribute("course","MVN");
+        model.addAttribute("course","MVC");
 
         int studentID = new Random().nextInt(1000);
         model.addAttribute("studentID", studentID);
