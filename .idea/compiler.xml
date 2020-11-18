@@ -8,19 +8,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
-        <module name="Spring-06-JavaCode-Configuration" />
-        <module name="Spring-05-JavaAnnotaion-Autowired" />
-        <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
+        <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-08-SpringBoot-MVC-Forms" />
+        <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" />
+      </profile>
+      <profile name="Annotation profile for Spring-02-DI-ConstructorInjection" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-05-JavaAnnotations-Component" />
-        <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-05-Value" />
-        <module name="Spring-02-DI-Setterinjection" />
         <module name="Spring-04-BeanLifeCycle-BeanInitDestroy" />
+        <module name="Spring-02-DI-Setterinjection" />
+        <module name="Spring-05-JavaAnnotaion-Autowired" />
         <module name="Spring-02-DI-ConstructorInjection" />
+        <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
         <module name="Spring-03-BeanScope-Singleton" />
         <module name="Spring-05-JavaAnnotaions-Qualifier" />
-        <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +44,7 @@
       <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" target="1.8" />
       <module name="Spring-07-SpringBoot-Ioc-DI-Lab" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Controller" target="1.8" />
+      <module name="Spring-08-SpringBoot-MVC-Forms" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -45,6 +52,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-07-SpringBoot-Ioc-DI-Lab" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Forms" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" options="-parameters" />
       <module name="cyber" options="-parameters" />
     </option>

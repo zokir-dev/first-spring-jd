@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>This is a Registration page</h1>
+
+    <div align="center">
+
+        <form action="/mentor/mentor-confirm" method="post" th:object="${mentor}">
+            <label>First Name: </label>
+            <input type="text" id="firstName" th:field="*{firstName}">
+
+            <label>Last Name: </label>
+            <input type="text" id="lastName" th:field="*{lastName}"><br><br>
+
+            <label>Gender: </label>
+            <input type="radio" id="mgender" value="Male" th:field="*{gender}">Male
+            <input type="radio" id="fgender" value="Female" th:field="*{gender}">Female<br>
+
+            <label>Email address: </label>
+            <input type="text" id="email" th:field="*{email}"><br><br>
+
+            <label>Graduated: </label>
+            <input type="checkbox" id="grad" th:field="*{graduated}"><br><br>
+
+            <label>Batch number: </label>
+                <select th:field="*{batch}">
+                    <option th:each="batchNum : ${batches}" th:value="${batchNum}" th:text="${batchNum}"></option>
+                </select><br><br>
+
+            <label>Company name: </label>
+            <input type="text" id="company" th:field="*{company}"><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>

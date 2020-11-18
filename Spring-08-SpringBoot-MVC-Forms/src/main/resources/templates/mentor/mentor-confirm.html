@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mentor Confirm</title>
+</head>
+<body>
+
+<h1>This is a Mentor Confirm page</h1>
+
+<table>
+    <thead>
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Email</td>
+        <td>Gender</td>
+        <td>Graduated</td>
+        <td>Batch#</td>
+        <td>Company</td>
+        <!---->
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td th:text="${mentor.firstName}"></td>
+        <td th:text="${mentor.lastName}"></td>
+        <td th:text="${mentor.email}"></td>
+        <td th:text="${mentor.gender}"></td>
+        <td th:text="${mentor.graduated}"></td>
+        <td th:text="${mentor.batch}"></td>
+        <td th:text="${mentor.company}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
