@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-Thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Forms/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-TableCreation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-OneToMany/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Forms/Spring-08-SpringBoot-MVC-Forms.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Forms/Spring-08-SpringBoot-MVC-Forms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-Thymeleaf/Spring-08-SpringBoot-MVC-Model-View-Thymeleaf.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View-Thymeleaf/Spring-08-SpringBoot-MVC-Model-View-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToMany/Spring-09-ORM-OneToMany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToMany/Spring-09-ORM-OneToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToOne/Spring-09-ORM-OneToOne.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToOne/Spring-09-ORM-OneToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
     </modules>
   </component>
 </project>

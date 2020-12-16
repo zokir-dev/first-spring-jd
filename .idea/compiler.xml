@@ -8,9 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
+        <module name="Spring-09-ORM-TableCreation" />
+        <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-05-JavaAnnotaion-Autowired" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
+        <module name="Spring-09-ORM-OneToOne" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
@@ -41,6 +44,9 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Forms" target="1.8" />
       <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" target="1.8" />
+      <module name="Spring-09-ORM-OneToMany" target="1.8" />
+      <module name="Spring-09-ORM-OneToOne" target="1.8" />
+      <module name="Spring-09-ORM-TableCreation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +55,9 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Forms" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" options="-parameters" />
+      <module name="Spring-09-ORM-OneToMany" options="-parameters" />
+      <module name="Spring-09-ORM-OneToOne" options="-parameters" />
+      <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="cyber" options="-parameters" />
     </option>
   </component>
