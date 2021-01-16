@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-10-Security-DefaultConfiguration" />
         <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
         <module name="Spring-09-ORM-CinemaApp" />
         <module name="Spring-09-ORM-TableCreation" />
@@ -24,6 +25,7 @@
         <module name="Spring-02-DI-Setterinjection" />
         <module name="Spring-04-BeanLifeCycle-BeanInitDestroy" />
         <module name="Spring-09-ORM-CustomQueries-JPQL" />
+        <module name="Spring-10-Security-CustomConfiguration" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-03-BeanScope-Singleton" />
         <module name="Spring-08-SpringBoot-MVC-Model-View-Thymeleaf" />
@@ -53,6 +55,8 @@
       <module name="Spring-09-ORM-OneToMany" target="1.8" />
       <module name="Spring-09-ORM-OneToOne" target="1.8" />
       <module name="Spring-09-ORM-TableCreation" target="1.8" />
+      <module name="Spring-10-Security-CustomConfiguration" target="1.8" />
+      <module name="Spring-10-Security-DefaultConfiguration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -67,6 +71,8 @@
       <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
       <module name="cyber" options="-parameters" />
     </option>
   </component>

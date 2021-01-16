@@ -24,6 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToMany/Spring-09-ORM-OneToMany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToMany/Spring-09-ORM-OneToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToOne/Spring-09-ORM-OneToOne.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToOne/Spring-09-ORM-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" />
     </modules>
   </component>
 </project>
